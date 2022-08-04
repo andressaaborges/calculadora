@@ -8,3 +8,8 @@ const calcularSalarioFinal = () => {
     salarioFinal = (salarioHora.value * horaDiaria) * diasTrabalhados.value;
     resultadoSalarioFinal.innerHTML = 'R$ ' + salarioFinal;
 }
+
+const calcularSalarioHora = () => {
+    salarioFinal = (salarioHora.value / diasTrabalhados.value) / horaDiaria;
+    resultadoSalarioFinal.innerHTML = 'R$ ' + salarioFinal;
+}
