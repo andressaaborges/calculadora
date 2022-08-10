@@ -1,15 +1,15 @@
-let salarioFinal = 0;
-let salarioHora = document.getElementById('salario_hora');
-let diasTrabalhados = document.getElementById('dias');
-let resultadoSalarioFinal = document.getElementById('resultado_salario_final');
-const horaDiaria = 8;
+let salaryFinal = 0;
+let salaryHour = document.getElementById('salary_hour');
+let workedDays = document.getElementById('dias');
+let resultSalaryFinal = document.getElementById('result_salary_final');
+const hourDaily = 8;
 
-const calcularSalarioFinal = () => {
-    salarioFinal = (salarioHora.value * horaDiaria) * diasTrabalhados.value;
-    resultadoSalarioFinal.innerHTML = 'R$ ' + salarioFinal;
+const calculateSalaryFinal = () => {
+    salaryFinal = (salaryHour.value * hourDaily) * workedDays.value;
+    resultSalaryFinal.innerHTML = 'R$ ' + salaryFinal;
 }
 
-const calcularSalarioHora = () => {
-    salarioFinal = (salarioHora.value / diasTrabalhados.value) / horaDiaria;
-    resultadoSalarioFinal.innerHTML = 'R$ ' + salarioFinal;
+const calculateSalaryHour = () => {
+    salaryFinal = (salaryHour.value / workedDays.value) / hourDaily;
+    resultSalaryFinal.innerHTML = 'R$ ' + salaryFinal;
 }
