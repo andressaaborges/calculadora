@@ -1,6 +1,6 @@
 let salaryFinal = 0;
 let salaryHour = document.getElementById('salary_hour');
-let workedDays = document.getElementById('dias');
+let workedDays = document.getElementById('days');
 let resultSalaryFinal = document.getElementById('result_salary_final');
 const hourDaily = 8;
 
