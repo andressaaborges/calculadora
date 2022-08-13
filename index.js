@@ -6,10 +6,10 @@ const hourDaily = 8;
 
 const calculateSalaryFinal = () => {
     salaryFinal = (salaryHour.value * hourDaily) * workedDays.value;
-    resultSalaryFinal.innerHTML = 'R$ ' + salaryFinal;
+    resultSalaryFinal.innerHTML = salaryFinal.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
 }
 
 const calculateSalaryHour = () => {
     salaryFinal = (salaryHour.value / workedDays.value) / hourDaily;
-    resultSalaryFinal.innerHTML = 'R$ ' + salaryFinal;
+    resultSalaryFinal.innerHTML = salaryFinal.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
 }
