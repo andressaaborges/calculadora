@@ -7,7 +7,7 @@
 </p>
 
 <details>
-    <summary>Como posso obter o valor do sálário total?</summary>
+    <summary>Como posso obter o valor do salário total?</summary>
     
     Obtem-se a partir da entrada de 2 dados:
 
