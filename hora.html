@@ -10,12 +10,12 @@
   <title>Calculadora de salário por hora</title>
 </head>
 
-<body class="teal lighten-2">
+<body class="grey darken-4">
   <div class="container">
     <nav>
-      <div class="nav-wrapper">
-        <a href="#" class="brand-logo">PretaLab</a>
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
+      <div class="nav-wrapper light-blue darken-4">
+        <a href="#" class="brand-logo left">PretaLab</a>
+        <ul id="nav-mobile" class="right">
           <li><a href="./index.html">Salário total</a></li>
           <li><a href="./hora.html">Salário por hora</a></li>
         </ul>
@@ -23,19 +23,19 @@
     </nav>
 
     <div class="row">
-      <form class="col s12 teal accent-2">
+      <form class="col s12 grey lighten-5">
         <div class="row col s6">
-          <div class="input-field col s6">
+          <div class="input-field">
             <input id="dias" type="number" class="validate" placeholder="Dias trabalhados">
           </div>
-          <div class="input-field col s6">
+          <div class="input-field">
             <input id="salary_hour" type="number" class="validate" placeholder="Salário total">
           </div>
-          <a class="waves-effect waves-light btn" onclick="calculateSalaryHour()">Calcular</a>
+          <a class="waves-effect waves-light light-blue darken-4 btn" onclick="calculateSalaryHour()">Calcular</a>
         </div>
-        <div class="row col s6">
+        <div class="row col s10">
           <p>Salário por hora</p>
-          <p id="result_salary_final">R$</p>
+          <p id="result_salary_final">R$ 0</p>
         </div>
       </form>
     </div>
