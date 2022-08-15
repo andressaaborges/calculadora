@@ -7,7 +7,7 @@
 </p>
 
 <details>
-    <summary>Como posso obter o valor do sálário total?</summary>
+    <summary>Como posso obter o valor do salário total?</summary>
     
     Obtem-se a partir da entrada de 2 dados:
 
@@ -35,13 +35,13 @@
 </h3>
 
 <p>
-    Bem, a partir dos 2 dados enviados pela pessoa usuária, o código **realiza o cálculo correspondente**.
+    Bem, a partir dos 2 dados enviados pela pessoa usuária, o código <b>realiza o cálculo correspondente</b>.
 </p>
 <p>
-    A pessoa usuária pode, também, a qualquer momento **escolher qual valor quer obter**: valor do salário total mensal ou salário por hora, apenas alternando entre as páginas.
+    A pessoa usuária pode, também, a qualquer momento <b>escolher qual valor quer obter</b>: valor do salário total mensal ou salário por hora, apenas alternando entre as páginas.
 </p>
 <p>
-    Não é possível, ainda, **validar o padrão dos dados** enviados pela pessoa usuária.
+    Não é possível, ainda, <b>validar o padrão dos dados enviados</b> pela pessoa usuária.
 </p>
 
 <br>
