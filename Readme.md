@@ -41,7 +41,9 @@
     A pessoa usuária pode, também, a qualquer momento <b>escolher qual valor quer obter</b>: valor do salário total mensal ou salário por hora, apenas alternando entre as páginas.
 </p>
 <p>
-    Não é possível, ainda, <b>validar o padrão dos dados enviados</b> pela pessoa usuária.
+    É possível também <b>validar o padrão dos dados enviados</b> pela pessoa usuária. Ou seja, o cálculo não é efetuada caso:
+    - pelo menos um dos dois campos esteja vazio, ou
+    - a pessoa usuária tenha digitado texto ao invés de números em pelo menos um dos dois campos.
 </p>
 
 <br>
