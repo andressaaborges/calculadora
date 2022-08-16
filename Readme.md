@@ -22,7 +22,7 @@
     Obtem-se a partir da entrada de 2 dados:
 
     - `quantidade dos dias trabalhados`
-    - `valor do salário total mensal` 
+    - `valor do salário total mensal`
 
 </details>
 
@@ -42,8 +42,10 @@
 </p>
 <p>
     É possível também <b>validar o padrão dos dados enviados</b> pela pessoa usuária. Ou seja, o cálculo não é efetuada caso:
-    - pelo menos um dos dois campos esteja vazio, ou
-    - a pessoa usuária tenha digitado texto ao invés de números em pelo menos um dos dois campos.
+    <ol>
+        <li>pelo menos um dos dois campos esteja vazio, ou</li>
+        <li>a pessoa usuária tenha digitado texto ao invés de números em pelo menos um dos dois campos.</li>
+    </ol>
 </p>
 
 <br>
